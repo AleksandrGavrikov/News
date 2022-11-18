@@ -5,7 +5,7 @@ using News.API.Contracts;
 namespace News.API.Controllers;
 
 [ApiController]
-[Route("[NewsController]")]
+[Route("[controller]")]
 public partial class NewsController : ControllerBase
 {
   private readonly ILogger<NewsController> _logger;
